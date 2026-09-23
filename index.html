@@ -1,0 +1,1319 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fahd Jerbi — GIS Developer & Géomaticien</title>
+    <meta
+      name="description"
+      content="Portfolio of Fahd Jerbi — GIS Developer & Géomaticien specializing in QGIS Plugin Development, Web GIS, Interactive Maps, and Python GIS Automation."
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Inter & JetBrains Mono Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/src/styles/base.css" />
+    <link rel="stylesheet" href="/src/styles/navbar.css" />
+    <link rel="stylesheet" href="/src/styles/hero.css" />
+    <link rel="stylesheet" href="/src/styles/services.css" />
+    <link rel="stylesheet" href="/src/styles/projects.css" />
+    <link rel="stylesheet" href="/src/styles/experience.css" />
+    <link rel="stylesheet" href="/src/styles/tech-stack.css" />
+    <link rel="stylesheet" href="/src/styles/contact-footer.css" />
+    <link rel="stylesheet" href="/src/styles/modal.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header class="navbar">
+      <div class="container nav-container">
+        <a href="#hero" class="nav-brand">
+          <svg
+            class="nav-brand-logo"
+            viewBox="0 0 36 36"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect width="36" height="36" rx="9" fill="#004C45" />
+            <path
+              d="M9 27L15 13.5L27 9L21 22.5L9 27Z"
+              stroke="#73D19C"
+              stroke-width="2"
+              stroke-linejoin="round"
+              fill="rgba(115, 209, 156, 0.25)"
+            />
+            <circle cx="15" cy="13.5" r="2.5" fill="#73D19C" />
+            <circle cx="27" cy="9" r="1.5" fill="#FFFFFF" />
+            <circle cx="21" cy="22.5" r="1.5" fill="#FFFFFF" />
+            <circle cx="9" cy="27" r="1.5" fill="#FFFFFF" />
+          </svg>
+          <span>FAHD JERBI</span>
+          <span class="nav-brand-badge">GIS DEV</span>
+        </a>
+
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#tech-stack" class="nav-link">Tech Stack</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav-actions">
+          <a href="#contact" class="btn btn-primary">Let's Connect</a>
+          <button class="mobile-toggle" aria-label="Toggle Navigation Menu">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section (Visible inside viewport) -->
+    <section class="hero" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-status-pill">
+            <span class="status-dot"></span>
+            <span class="status-text">Available for GIS & QGIS Projects</span>
+            <span class="coord-pill">36°48'N 10°11'E</span>
+          </div>
+
+          <h1 class="hero-title">
+            Analyze. <br />
+            <span class="text-gradient">Automate. Map.</span>
+          </h1>
+
+          <p class="hero-description">
+            I'm <strong>Fahd Jerbi</strong>, a Géomaticien and GIS Developer
+            based in Tunis. I engineer custom <strong>QGIS plugins</strong>,
+            develop <strong>Web GIS</strong> platforms, and automate complex
+            <strong>spatial data pipelines</strong> to transform geospatial
+            workflows into high-efficiency software.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <span>Explore Projects</span>
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+            <a href="#services" class="btn btn-secondary">
+              <span>View Services</span>
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"
+                />
+              </svg>
+              <span>CV</span>
+            </a>
+          </div>
+
+          <div class="hero-metrics">
+            <div class="metric-item">
+              <span class="metric-value">3<span class="accent">+</span></span>
+              <span class="metric-label">Years Experience</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-value"
+                >FTTH<span class="accent"> & </span>ORES</span
+              >
+              <span class="metric-label">Infrastructure Projects</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-value"
+                >PyQGIS<span class="accent">/</span>PyQt</span
+              >
+              <span class="metric-label">Specialization</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual / Photo Placeholder -->
+        <div class="hero-visual">
+          <div class="photo-card">
+            <div class="photo-wrapper">
+              <img
+                class="photo-img"
+                src="/assets/photo-placeholder.svg"
+                alt="Fahd Jerbi - Photo Placeholder"
+              />
+            </div>
+
+            <!-- Top Right Floating Badge -->
+            <div class="floating-badge badge-top-right">
+              <div class="floating-badge-icon">
+                <svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                  <polyline points="2 17 12 22 22 17"></polyline>
+                  <polyline points="2 12 12 17 22 12"></polyline>
+                </svg>
+              </div>
+              <div class="floating-badge-content">
+                <span class="floating-badge-title">Master en Géomatique</span>
+                <span class="floating-badge-subtitle">FSHST Tunis</span>
+              </div>
+            </div>
+
+            <!-- Bottom Left Floating Badge -->
+            <div class="floating-badge badge-bottom-left">
+              <div class="floating-badge-icon">
+                <svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 14 14"></polyline>
+                </svg>
+              </div>
+              <div class="floating-badge-content">
+                <span class="floating-badge-title">QGIS Plugin Developer</span>
+                <span class="floating-badge-subtitle"
+                  >PyQGIS / Qt / PostGIS</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section (4 in 1 row, medium size, fits in viewport) -->
+    <section class="services-section" id="services">
+      <div class="container">
+        <div class="section-tag">Specialized Expertise</div>
+        <h2 class="section-title">End-to-End GIS Services</h2>
+        <p class="section-subtitle">
+          Custom desktop extensions, browser-based mapping, and automated
+          processing routines designed to accelerate spatial engineering.
+        </p>
+
+        <div class="services-grid">
+          <!-- Service 1: QGIS Plugin Development -->
+          <article class="service-card">
+            <div>
+              <div class="service-header">
+                <div class="service-icon-box">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"
+                    />
+                  </svg>
+                </div>
+                <span class="service-number">01</span>
+              </div>
+              <h3 class="service-title">QGIS Plugin Development</h3>
+              <p class="service-desc">
+                Custom PyQGIS plugins with Qt Designer interfaces and processing
+                algorithms to automate repetitive desktop drafting.
+              </p>
+              <ul class="service-features-list">
+                <li class="service-feature-item">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  <span>PyQGIS scripts & Qt Designer GUI integration</span>
+                </li>
+                <li class="service-feature-item">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  <span>Auto-cable routing & splicing report generation</span>
+                </li>
+                <li class="service-feature-item">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  <span>Postgres & PostGIS database connectors</span>
+                </li>
+              </ul>
+            </div>
+            <div class="service-tech-tags">
+              <span class="tech-tag">PyQGIS</span>
+              <span class="tech-tag">PyQt6</span>
+              <span class="tech-tag">PostGIS</span>
+            </div>
+          </article>
+
+          <!-- Service 2: Web GIS -->
+          <article class="service-card">
+            <div>
+              <div class="service-header">
+                <div class="service-icon-box">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <circle cx="12" cy="12" r="10" />
+                    <line x1="2" y1="12" x2="22" y2="12" />
+                    <path
+                      d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+                    />
+                  </svg>
+                </div>
+                <span class="service-number">02</span>
+              </div>
+              <h3 class="service-title">Web GIS Solutions</h3>
+              <p class="service-desc">
+                Modern browser-accessible mapping applications connecting
+                spatial databases to intuitive stakeholder dashboards.
+              </p>
+              <ul class="service-features-list">
+                <li class="service-feature-item">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  <span>GeoServer & PostGIS vector tile backends</span>
+                </li>
+                <li class="service-feature-item">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  <span>Utility asset portals (gas, electric, telecom)</span>
+                </li>
+                <li class="service-feature-item">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  <span>Fast REST endpoints with GeoJSON responses</span>
+                </li>
+              </ul>
+            </div>
+            <div class="service-tech-tags">
+              <span class="tech-tag">Leaflet</span>
+              <span class="tech-tag">MapLibre GL</span>
+              <span class="tech-tag">GeoServer</span>
+            </div>
+          </article>
+
+          <!-- Service 3: Interactive Map -->
+          <article class="service-card">
+            <div>
+              <div class="service-header">
+                <div class="service-icon-box">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <polygon
+                      points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"
+                    ></polygon>
+                    <line x1="8" y1="2" x2="8" y2="18"></line>
+                    <line x1="16" y1="6" x2="16" y2="22"></line>
+                  </svg>
+                </div>
+                <span class="service-number">03</span>
+              </div>
+              <h3 class="service-title">Interactive Maps</h3>
+              <p class="service-desc">
+                Clean thematic cartography with dynamic attribute filtering,
+                cluster visualization, and geolocated asset inspection.
+              </p>
+              <ul class="service-features-list">
+                <li class="service-feature-item">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  <span>Responsive cartography for desktop & mobile</span>
+                </li>
+                <li class="service-feature-item">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  <span>Interactive feature popups & layer toggles</span>
+                </li>
+                <li class="service-feature-item">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  <span>Live spatial statistics & multi-network overlays</span>
+                </li>
+              </ul>
+            </div>
+            <div class="service-tech-tags">
+              <span class="tech-tag">Mapbox</span>
+              <span class="tech-tag">Turf.js</span>
+              <span class="tech-tag">GeoJSON</span>
+            </div>
+          </article>
+
+          <!-- Service 4: GIS Automation -->
+          <article class="service-card">
+            <div>
+              <div class="service-header">
+                <div class="service-icon-box">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                  </svg>
+                </div>
+                <span class="service-number">04</span>
+              </div>
+              <h3 class="service-title">GIS Automation</h3>
+              <p class="service-desc">
+                Python geoprocessing routines to validate spatial topology,
+                transcribe CAD plans, and compile audit-ready deliverables.
+              </p>
+              <ul class="service-features-list">
+                <li class="service-feature-item">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  <span>Topological validation & geometry healing</span>
+                </li>
+                <li class="service-feature-item">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  <span>AutoCAD to GIS batch transcription pipelines</span>
+                </li>
+                <li class="service-feature-item">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  <span>Automated APS, APD, and DOE compliance reports</span>
+                </li>
+              </ul>
+            </div>
+            <div class="service-tech-tags">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">GDAL / OGR</span>
+              <span class="tech-tag">GeoPandas</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section (2 Projects per row with GIF Showcase) -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <div class="section-tag">Featured Work</div>
+        <h2 class="section-title">Selected GIS Projects</h2>
+        <p class="section-subtitle">
+          Production deliverables across FTTH network automation, multi-utility
+          management, and spatial QA/QC pipelines. Click on any preview to
+          expand.
+        </p>
+
+        <div class="projects-grid">
+          <!-- Project 1: FTTH Network Design Automation QGIS Plugin -->
+          <article class="project-card">
+            <div class="project-media-wrapper">
+              <div
+                class="project-gif-container"
+                data-preview-src="/assets/project-1-ftth-plugin.svg"
+                data-preview-title="FTTH Network Design QGIS Plugin"
+              >
+                <img
+                  class="project-gif"
+                  src="/assets/project-1-ftth-plugin.svg"
+                  alt="FTTH Network Design QGIS Plugin GIF Showcase"
+                />
+                <div class="gif-badge-overlay">
+                  <span class="gif-pulse-dot"></span>
+                  <span class="gif-badge-text">GIF PREVIEW</span>
+                </div>
+                <div class="gif-hover-hint">
+                  <svg
+                    width="13"
+                    height="13"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+                  </svg>
+                  <span>Click to expand</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-info">
+              <div>
+                <div class="project-meta">
+                  <span class="project-tag">QGIS PLUGIN</span>
+                  <span class="project-year">2024 – 2025</span>
+                </div>
+                <h3 class="project-title">
+                  FTTH Network Design & Splicing Report QGIS Plugin
+                </h3>
+                <p class="project-description">
+                  A custom PyQGIS plugin developed to streamline
+                  Fiber-to-the-Home (FTTH) network design. It automates optical
+                  route drafting between distribution points (PBO/SRO) and
+                  subscribers, generating instant splicing and cabling reports.
+                </p>
+
+                <ul class="project-highlights">
+                  <li class="project-highlight-item">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                    <span
+                      ><strong>Auto-Cable Generation:</strong> Rapid routing
+                      connecting subscriber premises to distribution
+                      points.</span
+                    >
+                  </li>
+                  <li class="project-highlight-item">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                    <span
+                      ><strong>Automated Splicing Reports:</strong> Export of
+                      full cabling matrices and connection schedules for field
+                      engineering.</span
+                    >
+                  </li>
+                  <li class="project-highlight-item">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                    <span
+                      ><strong>Qt Designer GUI:</strong> Clean dock widget
+                      directly integrated into the QGIS workspace.</span
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <div class="project-tech-pills">
+                  <span class="tech-tag">PyQGIS</span>
+                  <span class="tech-tag">Postgres</span>
+                  <span class="tech-tag">Qt Designer</span>
+                  <span class="tech-tag">FTTH HLD/LLD</span>
+                </div>
+                <div class="project-actions">
+                  <button
+                    class="btn btn-primary"
+                    data-preview-src="/assets/project-1-ftth-plugin.svg"
+                    data-preview-title="FTTH Network Design QGIS Plugin"
+                  >
+                    <span>View Project GIF</span>
+                    <svg
+                      width="15"
+                      height="15"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <polygon points="5 3 19 12 5 21 5 3" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: ORES Multi-Utility Web GIS & Asset Viewer -->
+          <article class="project-card">
+            <div class="project-media-wrapper">
+              <div
+                class="project-gif-container"
+                data-preview-src="/assets/project-2-webgis.svg"
+                data-preview-title="Multi-Utility Infrastructure Web GIS"
+              >
+                <img
+                  class="project-gif"
+                  src="/assets/project-2-webgis.svg"
+                  alt="Multi-Utility Infrastructure Web GIS GIF Showcase"
+                />
+                <div class="gif-badge-overlay">
+                  <span class="gif-pulse-dot"></span>
+                  <span class="gif-badge-text">GIF PREVIEW</span>
+                </div>
+                <div class="gif-hover-hint">
+                  <svg
+                    width="13"
+                    height="13"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+                  </svg>
+                  <span>Click to expand</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-info">
+              <div>
+                <div class="project-meta">
+                  <span class="project-tag">WEB GIS & UTILITIES</span>
+                  <span class="project-year">2025 – 2026</span>
+                </div>
+                <h3 class="project-title">
+                  Multi-Utility Infrastructure Web GIS & Inspection Portal
+                </h3>
+                <p class="project-description">
+                  Interactive spatial viewer for multi-network utilities (ORES
+                  Belgium — gas, electricity, and telecommunications). Enables
+                  team-wide inspection of network assets, compliance audits
+                  against strict technical specifications, and cross-discipline
+                  collaboration.
+                </p>
+
+                <ul class="project-highlights">
+                  <li class="project-highlight-item">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                    <span
+                      ><strong>Multi-Layer Utility Overlay:</strong>
+                      Synchronized visualization of electric lines, gas mains,
+                      and telecom chambers.</span
+                    >
+                  </li>
+                  <li class="project-highlight-item">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                    <span
+                      ><strong>Asset Inspection & Metadata:</strong> On-click
+                      feature inspection querying PostGIS backend for
+                      maintenance logs and specs.</span
+                    >
+                  </li>
+                  <li class="project-highlight-item">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                    <span
+                      ><strong>Quality Assurance Tracking:</strong> Status
+                      visualizer highlighting audited zones and verified
+                      infrastructure plans.</span
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <div class="project-tech-pills">
+                  <span class="tech-tag">MapLibre GL</span>
+                  <span class="tech-tag">PostGIS</span>
+                  <span class="tech-tag">GeoServer</span>
+                  <span class="tech-tag">AutoCAD / GIS</span>
+                </div>
+                <div class="project-actions">
+                  <button
+                    class="btn btn-primary"
+                    data-preview-src="/assets/project-2-webgis.svg"
+                    data-preview-title="Multi-Utility Infrastructure Web GIS"
+                  >
+                    <span>View Project GIF</span>
+                    <svg
+                      width="15"
+                      height="15"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <polygon points="5 3 19 12 5 21 5 3" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Automated Spatial QA/QC & Geoprocessing Pipeline -->
+          <article class="project-card">
+            <div class="project-media-wrapper">
+              <div
+                class="project-gif-container"
+                data-preview-src="/assets/project-3-automation.svg"
+                data-preview-title="Automated Spatial QA/QC Pipeline"
+              >
+                <img
+                  class="project-gif"
+                  src="/assets/project-3-automation.svg"
+                  alt="Automated Spatial QA/QC Pipeline GIF Showcase"
+                />
+                <div class="gif-badge-overlay">
+                  <span class="gif-pulse-dot"></span>
+                  <span class="gif-badge-text">GIF PREVIEW</span>
+                </div>
+                <div class="gif-hover-hint">
+                  <svg
+                    width="13"
+                    height="13"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+                  </svg>
+                  <span>Click to expand</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-info">
+              <div>
+                <div class="project-meta">
+                  <span class="project-tag">GIS AUTOMATION & ETL</span>
+                  <span class="project-year">2023 – 2025</span>
+                </div>
+                <h3 class="project-title">
+                  Automated Spatial QA/QC & CAD-to-GIS Migration Pipeline
+                </h3>
+                <p class="project-description">
+                  A robust Python-based geospatial automation engine that
+                  extracts raw AutoCAD technical plans, audits topological
+                  connectivity, auto-corrects snapping errors, and writes
+                  validated features directly into PostGIS databases with
+                  automated compliance reports.
+                </p>
+
+                <ul class="project-highlights">
+                  <li class="project-highlight-item">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                    <span
+                      ><strong>Topological Integrity Verification:</strong>
+                      Automatic detection of dangles, micro-slivers, and
+                      duplicate nodes.</span
+                    >
+                  </li>
+                  <li class="project-highlight-item">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                    <span
+                      ><strong>Batch CAD-to-GIS ETL:</strong> Transcribes
+                      heterogeneous DWG/DXF layers into unified PostGIS and
+                      GeoPackage layers.</span
+                    >
+                  </li>
+                  <li class="project-highlight-item">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                    <span
+                      ><strong>Automated Deliverable Generation:</strong>
+                      Generates APS, APD, and DOE cartographic deliverables with
+                      minimal manual effort.</span
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <div class="project-tech-pills">
+                  <span class="tech-tag">Python 3</span>
+                  <span class="tech-tag">GDAL / OGR</span>
+                  <span class="tech-tag">GeoPandas</span>
+                  <span class="tech-tag">Shapely</span>
+                </div>
+                <div class="project-actions">
+                  <button
+                    class="btn btn-primary"
+                    data-preview-src="/assets/project-3-automation.svg"
+                    data-preview-title="Automated Spatial QA/QC Pipeline"
+                  >
+                    <span>View Project GIF</span>
+                    <svg
+                      width="15"
+                      height="15"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <polygon points="5 3 19 12 5 21 5 3" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section class="experience-section" id="experience">
+      <div class="container">
+        <div class="section-tag">Career Background</div>
+        <h2 class="section-title">Professional Experience</h2>
+        <p class="section-subtitle">
+          Hands-on experience in multinational engineering environments,
+          infrastructure networks, and automated cartography.
+        </p>
+
+        <div class="experience-timeline">
+          <!-- 1Spatial -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Technicien SIG / DAO</h3>
+                  <span class="timeline-company">1Spatial</span>
+                </div>
+                <span class="timeline-period">Juillet 2025 – Mai 2026</span>
+              </div>
+              <ul class="timeline-details">
+                <li class="timeline-detail-item">
+                  Updating infrastructure network plans for the
+                  <strong>ORES Belgique</strong> project (gas, electric,
+                  telecom).
+                </li>
+                <li class="timeline-detail-item">
+                  Alphanumeric and graphic data entry, transcribing source data
+                  into the AutoCAD & GIS environments.
+                </li>
+                <li class="timeline-detail-item">
+                  Data auditing and integrity verification against strict
+                  specifications (cahiers des charges / quality control).
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- German Network Solutions -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Chargé d'études FTTH</h3>
+                  <span class="timeline-company">German Network Solutions</span>
+                </div>
+                <span class="timeline-period">Février 2023 – Mai 2025</span>
+              </div>
+              <ul class="timeline-details">
+                <li class="timeline-detail-item">
+                  Prepared essential cartographic engineering deliverables
+                  (<strong>APS, APD, and DOE</strong>).
+                </li>
+                <li class="timeline-detail-item">
+                  Implemented FTTH deployment projects in
+                  <strong>QGIS</strong> and <strong>ArcGIS Pro</strong>.
+                </li>
+                <li class="timeline-detail-item">
+                  Engineered optical routes and planned HLD / LLD networks using
+                  <strong>Geostruct</strong>.
+                </li>
+                <li class="timeline-detail-item">
+                  Developed automated GIS tools (<strong>QGIS/PyQGIS</strong>)
+                  for report generation and repetitive geoprocessing.
+                </li>
+                <li class="timeline-detail-item">
+                  Maintained and updated cartographic and technical reference
+                  datasets.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Education FSHST -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">
+                    Master en Géomatique et Aménagement
+                  </h3>
+                  <span class="timeline-company"
+                    >FSHST — Université de Tunis</span
+                  >
+                </div>
+                <span class="timeline-period">2018 – 2021</span>
+              </div>
+              <p
+                style="
+                  font-size: 0.85rem;
+                  color: var(--text-secondary);
+                  margin-top: 0.5rem;
+                "
+              >
+                Advanced spatial analysis, geoprocessing algorithms, remote
+                sensing, and GIS database architecture. Preceded by a Licence
+                Professionnelle en Aménagement (2015–2018).
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section class="tech-stack-section" id="tech-stack">
+      <div class="container">
+        <div class="section-tag">Toolkit & Competencies</div>
+        <h2 class="section-title">Geospatial Tech Stack</h2>
+        <p class="section-subtitle">
+          Technologies and frameworks I use to develop plugins, process geodata,
+          and deploy web GIS applications.
+        </p>
+
+        <div class="tech-stack-grid">
+          <!-- Group 1: Desktop GIS & CAD -->
+          <div class="tech-group-card">
+            <h3 class="tech-group-title">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#004C45"
+                stroke-width="2"
+              >
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <path d="M3 9h18M9 21V9" />
+              </svg>
+              <span>Desktop GIS & CAD</span>
+            </h3>
+            <p class="tech-group-desc">
+              Core spatial analysis and cartographic engineering
+            </p>
+            <div class="tech-pills-list">
+              <span class="tech-pill"
+                ><span class="dot"></span>QGIS Desktop</span
+              >
+              <span class="tech-pill"><span class="dot"></span>ArcGIS Pro</span>
+              <span class="tech-pill"><span class="dot"></span>AutoCAD</span>
+              <span class="tech-pill"><span class="dot"></span>Geostruct</span>
+            </div>
+          </div>
+
+          <!-- Group 2: Plugin & Automation -->
+          <div class="tech-group-card">
+            <h3 class="tech-group-title">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#004C45"
+                stroke-width="2"
+              >
+                <path d="M16 18l6-6-6-6M8 6l-6 6 6 6" />
+              </svg>
+              <span>Automation & Scripting</span>
+            </h3>
+            <p class="tech-group-desc">
+              Python-driven geoprocessing and plugin development
+            </p>
+            <div class="tech-pills-list">
+              <span class="tech-pill"><span class="dot"></span>PyQGIS</span>
+              <span class="tech-pill"
+                ><span class="dot"></span>PyQt / Qt Designer</span
+              >
+              <span class="tech-pill"><span class="dot"></span>GDAL / OGR</span>
+              <span class="tech-pill"><span class="dot"></span>GeoPandas</span>
+              <span class="tech-pill"><span class="dot"></span>Shapely</span>
+            </div>
+          </div>
+
+          <!-- Group 3: Spatial Databases -->
+          <div class="tech-group-card">
+            <h3 class="tech-group-title">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#004C45"
+                stroke-width="2"
+              >
+                <ellipse cx="12" cy="5" rx="9" ry="3" />
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+              </svg>
+              <span>Spatial Data & Servers</span>
+            </h3>
+            <p class="tech-group-desc">
+              Storage, indexing, and spatial query optimization
+            </p>
+            <div class="tech-pills-list">
+              <span class="tech-pill"><span class="dot"></span>PostgreSQL</span>
+              <span class="tech-pill"><span class="dot"></span>PostGIS</span>
+              <span class="tech-pill"><span class="dot"></span>GeoPackage</span>
+              <span class="tech-pill"><span class="dot"></span>GeoServer</span>
+            </div>
+          </div>
+
+          <!-- Group 4: Web GIS & Standards -->
+          <div class="tech-group-card">
+            <h3 class="tech-group-title">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#004C45"
+                stroke-width="2"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+              </svg>
+              <span>Web GIS & Standards</span>
+            </h3>
+            <p class="tech-group-desc">
+              Interactive web mapping and geospatial protocols
+            </p>
+            <div class="tech-pills-list">
+              <span class="tech-pill"><span class="dot"></span>Leaflet</span>
+              <span class="tech-pill"
+                ><span class="dot"></span>MapLibre GL</span
+              >
+              <span class="tech-pill"
+                ><span class="dot"></span>GeoJSON / Vector Tiles</span
+              >
+              <span class="tech-pill"
+                ><span class="dot"></span>WMS / WFS / WMTS</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Footer Section -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="contact-card">
+          <div class="section-tag">Let's Collaborate</div>
+          <h2 class="contact-title">Ready to Automate Your GIS Workflows?</h2>
+          <p class="contact-subtitle">
+            Whether you need a custom QGIS plugin, automated geoprocessing
+            scripts, or a Web GIS platform, let's discuss how we can engineer
+            the right solution.
+          </p>
+
+          <div class="contact-channels">
+            <a
+              href="mailto:fahd.jerbi@fshst.u-tunis.tn"
+              class="channel-btn primary"
+            >
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+              <span>fahd.jerbi@fshst.u-tunis.tn</span>
+            </a>
+
+            <button
+              id="copyEmailBtn"
+              class="channel-btn"
+              title="Copy Email to Clipboard"
+            >
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2" />
+                <path
+                  d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                />
+              </svg>
+              <span>Copy Email</span>
+            </button>
+
+            <a
+              href="https://www.linkedin.com/in/fahd-jerbi"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="channel-btn"
+            >
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                />
+                <rect x="2" y="9" width="4" height="12" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+              <span>LinkedIn Profile</span>
+            </a>
+
+            <a href="tel:+21655607225" class="channel-btn">
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                />
+              </svg>
+              <span>+216 55 607 225</span>
+            </a>
+          </div>
+
+          <div id="copyToast" class="copy-toast">
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <polyline points="20 6 9 17 4 12" />
+            </svg>
+            <span>Email copied to clipboard!</span>
+          </div>
+        </div>
+
+        <!-- Site Footer -->
+        <footer class="site-footer">
+          <div>
+            <span
+              >© 2026 <strong>Fahd Jerbi</strong> — Géomaticien & GIS
+              Developer.</span
+            >
+          </div>
+          <div class="footer-coords">
+            <span>CRS: WGS 84 • 36.8065° N, 10.1815° E (Tunis)</span>
+          </div>
+          <ul class="footer-nav">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </footer>
+      </div>
+    </section>
+
+    <!-- GIF Preview Modal -->
+    <div class="modal-overlay" id="gifModal">
+      <div class="modal-container">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalTitle">Project Preview</h3>
+          <button
+            class="modal-close-btn"
+            id="modalClose"
+            aria-label="Close modal"
+          >
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img
+            id="modalImg"
+            class="modal-media-img"
+            src=""
+            alt="Project Detailed GIF Preview"
+          />
+        </div>
+        <div class="modal-footer">
+          <span>Press <kbd>Esc</kbd> or click outside to close</span>
+          <span class="coord-pill">GIS SHOWCASE</span>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
